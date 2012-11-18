@@ -20,6 +20,23 @@
 // Glyphicons
 //@import "twitter/bootstrap/sprites.less";
 
+.navbar-inner {
+  border: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.navbar .nav .active > a {
+  box-shadow: inset 0 -5px #888;
+  -webkit-box-shadow: inset 0 -5px #888;
+}
+
+.navbar .nav .active > a:hover {
+  box-shadow: inset 0 -5px #ffcc33;
+  -webkit-box-shadow: inset 0 -5px #ffcc33;
+}
+
+
 // Your custom LESS stylesheets goes here
 //
 // Since bootstrap was imported above you have access to its mixins which
@@ -38,7 +55,6 @@
 
 // Global values
 // --------------------------------------------------
-
 
 // Grays
 // -------------------------
@@ -214,7 +230,7 @@
 @navbarCollapseDesktopWidth:      @navbarCollapseWidth + 1;
 
 @navbarHeight:                    50px;
-@navbarBackground:                @bodyBackground;
+@navbarBackground:                white;
 @navbarBackgroundHighlight:       @bodyBackground;
 @navbarBorder:                    darken(@navbarBackground, 12%);
 

@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:toadkicker/twitter-bootstrap-rails.git
+  remote: git://github.com/toadkicker/twitter-bootstrap-rails.git
   revision: f87de2e4e3796eec4d25181d2cb7ecad2d9274e6
   specs:
     twitter-bootstrap-rails (2.1.6)

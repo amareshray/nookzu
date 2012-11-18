@@ -1,0 +1,15 @@
+.status
+{border-bottom: 1px #ccc solid;
+ padding: 5px 0;}
+ 
+ .status p{
+	 margin: 4px 0;
+ }
+ 
+ .status .admin {
+	 display: none;
+ }
+ 
+ .status.hover .admin{
+	 display: inline;
+ }

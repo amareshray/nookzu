@@ -22,4 +22,4 @@ end
 gem 'execjs'
 gem 'less-rails'
 gem 'jquery-rails'
-gem 'twitter-bootstrap-rails', :git => 'git@github.com:toadkicker/twitter-bootstrap-rails.git'
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/toadkicker/twitter-bootstrap-rails.git'
